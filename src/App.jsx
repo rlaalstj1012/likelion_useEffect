@@ -3,7 +3,7 @@ import ItemList from "./ItemList";
 const App = () => {
   return (
     <div>
-      <ItemList />
+      <TimerSwitch />
     </div>
   );
 };
