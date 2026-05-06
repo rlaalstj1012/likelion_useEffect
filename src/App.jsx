@@ -1,7 +1,12 @@
-import React from "react";
+import React from "react"; // 생략 가능
+import NameInput from "./NameInput";
 
 const App = () => {
-	return <div className="text-red-500 text-7xl">App</div>;
+	return (
+		<div>
+			<NameInput />
+		</div>
+	);
 };
 
 export default App;
