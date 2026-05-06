@@ -1,9 +1,9 @@
-import HookStructure from "./HookStructure";
+import TimerSwitch from "./TimerSwitch";
 
 const App = () => {
   return (
     <div>
-      <HookStructure />
+      <TimerSwitch />
     </div>
   );
 };

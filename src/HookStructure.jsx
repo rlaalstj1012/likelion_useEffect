@@ -17,7 +17,8 @@ const HookStructure = () => {
   // 세 번째 useEffect: text 상태가 변경될 때 실행
   useEffect(() => {
     console.log("텍스트가 변경되었음:", text);
-  }, [text]);
+  }, [text]);  
+
 
   // 네 번째 useEffect: 매 렌더링마다 실행됨
   useEffect(() => {
